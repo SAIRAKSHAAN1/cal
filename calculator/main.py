@@ -2,8 +2,8 @@
 Command-line interface for the calculator application.
 """
 
-from operations import add, subtract, multiply, divide
-from utils import validate_number, validate_operator
+from calculator.operations import add, subtract, multiply, divide
+from calculator.utils import validate_number, validate_operator
 
 def calculate(a: float, operator: str, b: float) -> float:
     """Perform calculation based on operator."""
